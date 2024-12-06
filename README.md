@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/Favicon.png">
+    <link rel="icon" href="Favicon.png">
 
     <title>отопительное оборудование</title>
 </head>
@@ -20,11 +20,11 @@
             <a class="header_navi_a" href="https://grampus-studio.ru/"> Выгодно  </a>
             <a class="header_navi_a" href="https://grampus-studio.ru/"> Услуги и товары  </a>
             <a class="header_navi_a" href="https://grampus-studio.ru/"> Контакты  </a>
-            <a class="header_navi_a" href="https://grampus-studio.ru/"> Еще <img src="img/Vector 1.png"> </a>
+            <a class="header_navi_a" href="https://grampus-studio.ru/"> Еще <img src="Vector 1.png"> </a>
             </div>
             <div class="header_navi_icon">
-             <a href="https://grampus-studio.ru/">   <img id="icon" src="img/mingcute_telegram-fill.png"></a>
-             <a href="https://grampus-studio.ru/"> <img src="img/ri_whatsapp-fill.png"></a>
+             <a href="https://grampus-studio.ru/">   <img id="icon" src="mingcute_telegram-fill.png"></a>
+             <a href="https://grampus-studio.ru/"> <img src="ri_whatsapp-fill.png"></a>
             </div>
             <div class="header_navi_telefon">
                 +7 (999) 123-45-67
@@ -69,13 +69,13 @@
                         </a>
                     </div>
                     <div id="Bsec1_svyaz2">
-                        <img id="strelaLeft" src="img/Стрелка для слайдера.png"  onclick="showSlide(currentSlide - 1)">
+                        <img id="strelaLeft" src="Стрелка для слайдера.png"  onclick="showSlide(currentSlide - 1)">
                         <div class="dots">
                             <span class="dot" onclick="showSlide(0)"></span>
                             <span class="dot" onclick="showSlide(1)"></span>
                             <span class="dot" onclick="showSlide(2)"></span>
                         </div>
-                        <img src="img/Union.png" id="strelaRight" onclick="showSlide(currentSlide + 1)" >
+                        <img src="Union.png" id="strelaRight" onclick="showSlide(currentSlide + 1)" >
                     </div>
                 </div>
             </div>
@@ -85,15 +85,15 @@
     const slides = [
         {
             text: "Установка и обслуживание <span id='text1'>отопительного оборудования</span> в Москве", // Обернули текст в span
-            image: "img/Фото.png"
+            image: "Фото.png"
         },
         {
             text: "Профессионализм и качество обслуживания",
-            image: "img/Фото_oKompanii.png"
+            image: "Фото_oKompanii.png"
         },
         {
             text: "Инновационные решения для вашего дома",
-            image: "img/Фото.png"
+            image: "Фото.png"
         }
     ];
 
@@ -129,12 +129,12 @@
     showSlide(currentSlide);
             </script>
             <div class="Bsec1_box">
-                <img id="slideImage" src="img/Фото.png">
+                <img id="slideImage" src="Фото.png">
             </div>
         </div>
         <div class="body_section2">
             <div class="image-container_section2 ">
-                <img src="img/Баннер.png" alt="Баннер">
+                <img src="Баннер.png" alt="Баннер">
                 <a href="https://grampus-studio.ru/"> 
 
                 <button class="button_section2">Заказать услугу</button>
@@ -158,16 +158,16 @@
                         <div class="usluga_GLrazdel">
                             <div class="usluga_opisanie">
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Проектирование 
+                                    <img id="punkt" src="-.png">   Проектирование 
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Монтаж 
+                                    <img id="punkt" src="-.png">   Монтаж 
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Сервисное обслуживание 
+                                    <img id="punkt" src="-.png">   Сервисное обслуживание 
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Любой масштаб 
+                                    <img id="punkt" src="-.png">   Любой масштаб 
                                 </div>
                                 <div id="btn_zu"> 
                                     <a href="https://grampus-studio.ru/"> 
@@ -176,7 +176,7 @@
                             </div>
                             </div>
                             <div class="usluga_foto">
-                                <img src="img/usluga1.png">
+                                <img src="usluga1.png">
                             </div>
                         </div>
                     </div>
@@ -188,10 +188,10 @@
                    
                     if (hiddenItems.style.display === 'none') {
                         hiddenItems.style.display = 'block';  
-                        toggleText.innerHTML = 'Скрыть <img src="img/Line 1.png" id="line">';  
+                        toggleText.innerHTML = 'Скрыть <img src="Line 1.png" id="line">';  
                     } else {
                         hiddenItems.style.display = 'none';  
-                        toggleText.innerHTML = 'Открыть еще <img src="img/Line 1.png" id="line">';  
+                        toggleText.innerHTML = 'Открыть еще <img src="Line 1.png" id="line">';  
                     }
                 }
                     </script>
@@ -208,30 +208,30 @@
                         <div class="usluga_GLrazdel" id="razdel2">
                             <div class="usluga_opisanie">
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Для систем водоснабжения 
+                                    <img id="punkt" src="-.png">   Для систем водоснабжения 
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Для отопления 
+                                    <img id="punkt" src="-.png">   Для отопления 
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Для систем водоснабжения в<br> частных домах 
+                                    <img id="punkt" src="-.png">   Для систем водоснабжения в<br> частных домах 
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   Для систем водоснабжения в многоквартирных домах 
+                                    <img id="punkt" src="-.png">   Для систем водоснабжения в многоквартирных домах 
                                 </div>
                                 <div id="hiddenItems" style="display: none;">
                                     <div id="opisanie_usl">
-                                        <img id="punkt" src="img/-.png"> Для систем отопления в <br>многоквартирных домах
+                                        <img id="punkt" src="-.png"> Для систем отопления в <br>многоквартирных домах
                                     </div>
                                     <div id="opisanie_usl">
-                                        <img id="punkt" src="img/-.png"> Для любых <br>высоконагруженных систем
+                                        <img id="punkt" src="-.png"> Для любых <br>высоконагруженных систем
                                     </div>
                                     
                                 </div>
                                  
                                 <div id="opisanie_usl">
                                      <div id="Otkit_eche" onclick="toggleItems()">Открыть еще
-                                        <img src="img/Line 1.png" id="line">
+                                        <img src="Line 1.png" id="line">
                                      </div>
                                 </div>
                                 <div id="btn_zu2"> 
@@ -241,7 +241,7 @@
                                 </div>
                             </div>
                             <div class="usluga_foto">
-                                <img src="img/usluga2.png">
+                                <img src="usluga2.png">
                             </div>
                         </div>
                     </div>
@@ -261,20 +261,20 @@
                         <div class="usluga_GLrazdel">
                             <div class="usluga_opisanie">
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Качественно
+                                    <img id="punkt" src="-.png">  Качественно
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   В день обращения
+                                    <img id="punkt" src="-.png">   В день обращения
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">   В частных и многоквартирных<br> домах
+                                    <img id="punkt" src="-.png">   В частных и многоквартирных<br> домах
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  С помощью современного<br> немецкого оборудования
+                                    <img id="punkt" src="-.png">  С помощью современного<br> немецкого оборудования
                                 </div>
                                 <div id="hiddenItems" style="display: none;">
                                     <div id="opisanie_usl">
-                                        <img id="punkt" src="img/-.png"> Для систем отопления в <br>многоквартирных домах
+                                        <img id="punkt" src="-.png"> Для систем отопления в <br>многоквартирных домах
                                     </div>
                                     
                                     
@@ -282,7 +282,7 @@
                                  
                                 <div id="opisanie_usl">
                                      <div id="Otkit_eche" onclick="toggleItems()">Открыть еще
-                                        <img src="img/Line 1.png" id="line">
+                                        <img src="Line 1.png" id="line">
                                      </div>
                                 </div>
                                 <div id="btn_zu3"> 
@@ -293,7 +293,7 @@
 
                             </div>
                             <div class="usluga_foto">
-                                <img src="img/usluga3.png">
+                                <img src="usluga3.png">
                             </div>
                         </div>
                     </div>
@@ -310,16 +310,16 @@
                         <div class="usluga_GLrazdel">
                             <div class="usluga_opisanie">
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Котлы
+                                    <img id="punkt" src="-.png">  Котлы
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Насосные станции
+                                    <img id="punkt" src="-.png">  Насосные станции
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Системы автоматики
+                                    <img id="punkt" src="-.png">  Системы автоматики
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Иное оборудование
+                                    <img id="punkt" src="-.png">  Иное оборудование
                                 </div>
                                 <div id="btn_zu"> 
                                     <a href="https://grampus-studio.ru/"> 
@@ -328,7 +328,7 @@
                                 </div>
                             </div>
                             <div class="usluga_foto">
-                                <img src="img/usluga4.png">
+                                <img src="usluga4.png">
                             </div>
                         </div>
                     </div>
@@ -348,13 +348,13 @@
                         <div class="usluga_GLrazdel2">
                             <div class="usluga_opisanie">
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Газовые котлы
+                                    <img id="punkt" src="-.png">  Газовые котлы
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Электрические котлы
+                                    <img id="punkt" src="-.png">  Электрические котлы
                                 </div>
                                 <div id="opisanie_usl">
-                                    <img id="punkt" src="img/-.png">  Расходные материалы и комплектующие
+                                    <img id="punkt" src="-.png">  Расходные материалы и комплектующие
                                 </div>
                                 
                                  
@@ -366,7 +366,7 @@
 
                             </div>
                             <div class="usluga_foto2">
-                                <img src="img/usluga5.png">
+                                <img src="usluga5.png">
                             </div>
                         </div>
                     </div>
@@ -381,16 +381,16 @@
             <div class="section4_slideshow">
                 <div class="section4_foto">
                     <div class="slide_Foto" id="slide1">
-                        <img src="img/Фото_oKompanii.png" alt="Слайд 1">
+                        <img src="Фото_oKompanii.png" alt="Слайд 1">
                     </div>
                     <div class="slide_Foto" id="slide2" style="display: none;">
-                        <img src="img/rabota2sl.png" alt="Слайд 2">
+                        <img src="rabota2sl.png" alt="Слайд 2">
                     </div>
                     <div class="slide_Foto" id="slide3" style="display: none;">
-                        <img src="img/rabota1sl.png" alt="Слайд 3">
+                        <img src="rabota1sl.png" alt="Слайд 3">
                     </div>
                     <div class="slide_strelki">
-                        <img id="strelaLeft2" src="img/Стрелка для слайдера.png" onclick="changeCompanySlide(-1)"  >
+                        <img id="strelaLeft2" src="Стрелка для слайдера.png" onclick="changeCompanySlide(-1)"  >
                         <div class="dot_box"> 
                         <div class="dots2">
                             <span class="dot2" onclick="showCompanySlide(0)" ></span>
@@ -398,7 +398,7 @@
                             <span class="dot2" onclick="showCompanySlide(2)"></span>
                         </div>
                     </div>
-                        <img src="img/Union.png" id="strelaRight2"   onclick="changeCompanySlide(1)">
+                        <img src="Union.png" id="strelaRight2"   onclick="changeCompanySlide(1)">
                     </div>
                 </div>
                 <div class="section4_information">
@@ -504,7 +504,7 @@
                         </div>
                         <div class="section5_vse_etapi">
                             <div class="etapi_img">
-                                <img src="img/etap_img.jpg"  height="378">
+                                <img src="etap_img.jpg"  height="378">
                             </div>
                             <div class="etapi_text">
                                 <div class="box_etapi_text">
@@ -547,7 +547,7 @@
                         </a>
                     </div>
                     <div class="section5_etapi_foto">
-                        <img src="img/etapi.png">
+                        <img src="etapi.png">
                     </div>
                 </div>
                 </div>
@@ -567,11 +567,11 @@
                             главный инженер
                         </div>
                         <div class="section6_sotrudnik_foto">
-                            <img src="img/sotrudnik1.png">
+                            <img src="sotrudnik1.png">
                         </div>
                         <div class="section6_sotrudniki_all">
                             <a href="https://grampus-studio.ru/" id="a">  <div id="Otkit_eche2" > Показать всех
-                                <img src="img/Line 1.png" id="linee">
+                                <img src="Line 1.png" id="linee">
                              </div></a>
                         </div>
                     </div>
@@ -585,7 +585,7 @@
                             заместитель главного инженера
                         </div>
                         <div class="section6_sotrudnik_foto">
-                            <img src="img/sotrudnik2.png">
+                            <img src="sotrudnik2.png">
                         </div>
                     </div>
 
@@ -598,7 +598,7 @@
                             мастер-сметчик
                         </div>
                         <div class="section6_sotrudnik_foto">
-                            <img src="img/sotrudnik3.png">
+                            <img src="sotrudnik3.png">
                         </div>
                     </div>
                 </div>
@@ -611,7 +611,7 @@
                 <div class="section7_slideshow">
                     <div class="section7_slideshow_otzyvi">
                         <div class="section7_slideBox1">
-                            <img src="img/Видео.png" id="slidebox_foto">
+                            <img src="Видео.png" id="slidebox_foto">
                             <div class="slideBox1_text1">
                                 ООО «Агрокомплекс», владелец компании Сармат Алиев
                             </div>
@@ -624,7 +624,7 @@
                         <div class="section7_slideBox2">
                             <div class="slideBox_avatar">
                                 <div class="slideBox_avatar_foto">
-                                <img src="img/avatar.png">
+                                <img src="avatar.png">
                                 </div>
                                 <div class="slideBox_avatar_text">
                                     <div class="slideBox1_text1">
@@ -643,23 +643,23 @@
                             </div>
                             <div class="slidebox_otzv_foto">
                                 <div class="image_container_otzv" >
-                                    <img src="img/otzv.png"  >
+                                    <img src="otzv.png"  >
                                     <div class="overlay_icon">
-                                        <img src="img/Lupa.png" >
+                                        <img src="Lupa.png" >
                                     </div>
                                      
                                 </div>
                                 <div class="image_container_otzv">
-                                    <img src="img/otzv2.png"  >
+                                    <img src="otzv2.png"  >
                                     <div class="overlay_icon">
-                                        <img src="img/Lupa.png" >
+                                        <img src="Lupa.png" >
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide_strelki" id="strl">
-                        <img id="strelaLeft3" src="img/Стрелка для слайдера.png"  onclick="changeReviewSlide(-1)"  >
+                        <img id="strelaLeft3" src="Стрелка для слайдера.png"  onclick="changeReviewSlide(-1)"  >
                         <div class="dot_boxx"> 
                         <div class="dots2">
                             <span class="dot2"  onclick="showReviewSlide(0)" ></span>
@@ -667,7 +667,7 @@
                             <span class="dot2" onclick="showReviewSlide(2)" ></span>
                         </div>
                     </div>
-                        <img src="img/Union.png" id="strelaRight3"  onclick="changeReviewSlide(1)"  >
+                        <img src="Union.png" id="strelaRight3"  onclick="changeReviewSlide(1)"  >
                     </div>
                 </div>
             </div>
@@ -678,57 +678,57 @@
                 <div class="section8_Show">
                     <div class="First_work">
                         <div class="section8_foto">
-                            <img src="img/rabota1.png">
+                            <img src="rabota1.png">
                         </div>
                         <div class="work_name">
                             Система воздушного отопления с автоматизацией и диспетчеризацией
                         </div>
                         <div class="work_info">
                             <div class="work_adres">
-                                <img src="img/skobkaVerh.png">
+                                <img src="skobkaVerh.png">
                                 <div class="adres_icon">
-                                    <img src="img/adr.png" id="adr">  Щелковский район
+                                    <img src="adr.png" id="adr">  Щелковский район
                                 </div>
-                                <img src="img/skobkaNiz.png">
+                                <img src="skobkaNiz.png">
                             </div>
                             <div class="work_year">
                                 
-                                <img src="img/skobkaVerh.png" id="sk1">
+                                <img src="skobkaVerh.png" id="sk1">
                                 <div class="year_icon">
-                                    <img src="img/year.png" id="yer"> Май 2023 года
+                                    <img src="year.png" id="yer"> Май 2023 года
                                 </div>
-                                <img src="img/skobkaNiz.png" id="sk1">
+                                <img src="skobkaNiz.png" id="sk1">
                             </div>
                         </div>
                     </div>
                     <div class="second_work">
                         <div class="section8_foto">
-                            <img src="img/rabota2.png">
+                            <img src="rabota2.png">
                         </div>
                         <div class="work_name">
                             Промышленная система теплохолодоснабжения (VRF системы, канальные электрические нагреватели)
                         </div>
                         <div class="work_info">
                             <div class="work_adres">
-                                <img src="img/skobkaVerh.png" id="sk2">
+                                <img src="skobkaVerh.png" id="sk2">
                                 <div class="adres_icon">
-                                    <img src="img/adr.png" id="adr"> Мытищи
+                                    <img src="adr.png" id="adr"> Мытищи
                                 </div>
-                                <img src="img/skobkaNiz.png" id="sk2">
+                                <img src="skobkaNiz.png" id="sk2">
                             </div>
                             <div class="work_year">
                                 
-                                <img src="img/skobkaVerh.png">
+                                <img src="skobkaVerh.png">
                                 <div class="year_icon">
-                                    <img src="img/year.png" id="yer">Ноябрь 2022 года
+                                    <img src="year.png" id="yer">Ноябрь 2022 года
                                 </div>
-                                <img src="img/skobkaNiz.png">
+                                <img src="skobkaNiz.png">
                             </div>
                         </div> 
                     </div>
                 </div>
                 <div class="slide_strelki" id="strl">
-                    <img id="strelaLeft3" src="img/Стрелка для слайдера.png"  onclick="changeReviewSlide(-1)"  >
+                    <img id="strelaLeft3" src="Стрелка для слайдера.png"  onclick="changeReviewSlide(-1)"  >
                     <div class="dot_boxx"> 
                     <div class="dots2">
                         <span class="dot2"  onclick="showReviewSlide(0)" ></span>
@@ -736,7 +736,7 @@
                         <span class="dot2" onclick="showReviewSlide(2)" ></span>
                     </div>
                 </div>
-                    <img src="img/Union.png" id="strelaRight3"  onclick="changeReviewSlide(1)"  >
+                    <img src="Union.png" id="strelaRight3"  onclick="changeReviewSlide(1)"  >
                 </div>
             </div>
             <div class="body_section9">
@@ -811,7 +811,7 @@
                     </div>
                     <div class="pokazat_echee">
                         <a href="https://grampus-studio.ru/" id="a">  <div id="Otkit_eche2" > Показать ещё
-                        <img src="img/Line 1.png" id="linee">
+                        <img src="Line 1.png" id="linee">
                      </div>
                     </a>
                     </div>
@@ -820,9 +820,9 @@
                     </div>
                     <div class="section9_sertificate_foto">
                         <div class="sert_foto_container" style="margin-left: 130px;">
-                            <img src="img/Group 2.png" id="sert_foto">
+                            <img src="Group 2.png" id="sert_foto">
                             <div class="overlay_icon_sert_foto">
-                                <img src="img/Lupa.png">
+                                <img src="Lupa.png">
                             </div>
                         </div>
                     </div>
@@ -851,7 +851,7 @@
                         Мы готовы ответить на любой их них, оставьте свои <br>данные и мы перезвоним
                     </div>
                     <div class="section10_foto">
-                        <img src="img/voprosi.png" height="242" width="470">
+                        <img src="voprosi.png" height="242" width="470">
 
                     </div>
                 </div>
@@ -902,8 +902,8 @@
                         </div>
                         <div class="kontakti_opisanie">
                             <div class="kont_2">
-                                <img src="img/tg.png" width="28" height="24" id="tg">
-                                <img src="img/wat.png" width="24" height="24">
+                                <img src="tg.png" width="28" height="24" id="tg">
+                                <img src="wat.png" width="24" height="24">
                             </div>
                             <div class="kont_time">
                                 В любое время
@@ -941,8 +941,8 @@
                 </div>
                 <div class="foot_btns">
                     <div class="foot_icon">
-                        <a href="https://grampus-studio.ru/">   <img id="icon" src="img/mingcute_telegram-fill.png"></a>
-                        <a href="https://grampus-studio.ru/"> <img src="img/ri_whatsapp-fill.png"></a>
+                        <a href="https://grampus-studio.ru/">   <img id="icon" src="mingcute_telegram-fill.png"></a>
+                        <a href="https://grampus-studio.ru/"> <img src="ri_whatsapp-fill.png"></a>
                          
                     </div>
                     <a href="https://grampus-studio.ru/">
@@ -959,7 +959,7 @@
                 </div>
                 <div class="footer2">
                     <div id="fu2">Сайт разработан</div> 
-                    <a href="https://grampus-studio.ru/"><img src="img/GRAMPUS.png" width="100" height="15"></a>
+                    <a href="https://grampus-studio.ru/"><img src="GRAMPUS.png" width="100" height="15"></a>
                 </div>
                 <div class="footer3" >
                     © 2024. ООО «Отопительное оборудование»
